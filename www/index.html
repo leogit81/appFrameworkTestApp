@@ -2,10 +2,6 @@
 <html>
     <head>
 	    <script type="text/javascript">
-			window.console = {
-				log: function (str) { window.external.Notify(str); }
-			};
-
 			// output errors to console log
 			window.onerror = function (e) {
 				console.log("window.onerror ::" + JSON.stringify(e));
@@ -32,11 +28,10 @@
         <!--App Framework includes start-->
         <link rel="stylesheet" type="text/css" href="css/appframework/af.ui.css" />
         <link rel="stylesheet" type="text/css" href="css/appframework/icons.css" />
-        <!--App Framework includes end-->
-        
-        <script type="text/javascript" charset="utf-8" src="./libraries/plugins/af.desktopBrowsers.js"></script>
-		<script type="text/javascript" charset="utf-8" src="./libraries/appframework.js"></script>
+        <script type="text/javascript" charset="utf-8" src="./libraries/appframework.js"></script>
 		<script type="text/javascript" charset="utf-8" src="./libraries/ui/appframework.ui.js"></script>
+        <script type="text/javascript" charset="utf-8" src="./libraries/plugins/af.desktopBrowsers.js"></script>
+        <!--App Framework includes end-->
 	
 		<script type="text/javascript" src="cordova.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>

@@ -46,10 +46,10 @@ var app = {
             $.ui.launch();
         }
         catch(ex){
-            alert("ocurriò un error al lanzar el app framework. Detalle: \n\n" + ex.stack);
+            alert("There was an error launching Intel App Framework. Details: \n\n" + ex.stack);
             return;
         }
     
-        alert("se lanzò el app framework correctamente");
+        alert("Intel App Framework lauched.");
     }
 };

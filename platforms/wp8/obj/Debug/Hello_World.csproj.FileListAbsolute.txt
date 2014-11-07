@@ -1,0 +1,14 @@
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\Bin\Debug\ApplicationIcon.png
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\Bin\Debug\Background.png
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\Bin\Debug\com.example.app.dll
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\Bin\Debug\com.example.app.pdb
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\Bin\Debug\AppManifest.xaml
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\obj\Debug\App.g.cs
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\obj\Debug\MainPage.g.cs
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\obj\Debug\com.example.app.g.resources
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\obj\Debug\com.example.app.dll
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\obj\Debug\com.example.app.pdb
+Z:\C\Users\Leo\PhoneGap\Projects\hello\platforms\wp8\obj\Debug\XapCacheFile.xml

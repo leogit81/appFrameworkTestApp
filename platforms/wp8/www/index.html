@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <script type="text/javascript">
+			window.console = {
+				log: function (str) { window.external.Notify(str); }
+			};
+
+			// output errors to console log
+			window.onerror = function (e) {
+				console.log("window.onerror ::" + JSON.stringify(e));
+			};
+
+			console.log("Installed console !");
+		</script>
+		<script type="text/javascript">
+			window.WeinreServerId = "wp_test_cropp"; // <-- your unique identifier on the server below
+			window.WeinreServerURL = "http://debug.build.phonegap.com/"; // <-- weinre server to use
+
+			// To open debugger use the following uri format - WeinreServerURL/client/#WeinreServerId
+			// for example http://debug.phonegap.com/client/#wp_test
+
+		</script>
+		
+        <title>SISA Móvil</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		
+        <!--App Framework includes start-->
+        <link rel="stylesheet" type="text/css" href="css/appframework/af.ui.css" />
+        <link rel="stylesheet" type="text/css" href="css/appframework/icons.css" />
+        <!--App Framework includes end-->
+            
+		<script type="text/javascript" charset="utf-8" src="./libraries/appframework.js"></script>
+		<script type="text/javascript" charset="utf-8" src="./libraries/ui/appframework.ui.js"></script>
+	
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+			app.initialize();
+		</script>
+		
+		<script type="text/javascript" src="http://dl.dropbox.com/u/23085338/weinre-target-script-min.js"></script>
+	</head>
+	<body>
+        <div class="app">
+            <div id="afui">
+                <div id="header">
+                    <!-- any additional HTML you want can go here -->
+                </div>
+                <div id="content">
+                    <div id="home" class="panel" data-title="Test application" selected="true">
+                        <ul class="list">
+                            <li>
+                                <a>                                        
+                                    <div class="ztexto-lista">
+                                        <img class="list-image" src="./img/iconos/tab_11.png">
+                                        <h3>GEOREFES</h3>
+                                        <p>Localizar establecimientos más cercanos</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkConsultaEstablecimiento" class="item_menu" href="#">                                        
+                                    <div class ="ztexto-lista">
+                                        <img src="./img/iconos/tab_2.png">
+                                        <h3>REFES</h3>
+                                        <p>Registro Federal de Establecimientos de Salud</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkConsultaProfHome" class="item_menu" href="#">
+
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_3.png">
+                                        <h3>REFEPS</h3>
+                                        <p>Red Federal de Registros de Profesionales de la Salud</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkConsultaNomivac" class="item_menu" href="#">                                        
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_4.png">
+                                        <h3>NomiVac</h3>
+                                        <p>Centros de vacunación</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkConsultaFarmacias" class="item_menu" href="#">
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_5.png">
+                                        <h3>REFAR</h3>
+                                        <p>Registro Federal de Farmacias</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkConsultaDroguerias" class="item_menu" href="#">                                        
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_6.png">
+                                        <h3>REDRO</h3>
+                                        <p>Registro Federal de Droguerías</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkConsultaRemediar" class="item_menu" href="#">                                        
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_7.png">
+                                        <h3>REMEDIAR</h3>
+                                        <p>Programa REMEDIAR</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkConsultaRedos" class="item_menu" href="#">
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_8.png">
+                                        <h3>REDOS</h3>
+                                        <p>Registro nacional de Donantes de Sangre</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkConsultaMinisterio" class="item_menu" href="#">
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_9.png">
+                                        <h3>MINISTERIO</h3>
+                                        <p>Ministerios de Salud</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkConsultaInstForm" class="item_menu" href="#">
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_10.png">
+                                        <h3>Formación</h3>
+                                        <p>Registro federal de instituciones formadoras</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkConsultaReferentes" class="item_menu" href="#">
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_17.png">
+                                        <h3>Referentes</h3>
+                                        <p>Referentes, Autoridades y Soporte Técnico</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item_menu">
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_12.png">
+                                        <h3>CONTACTO</h3>
+                                        <p>Mensajes</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item_menu">
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_13.png">
+                                        <h3>ACERCA DE</h3>
+                                        <p>SISA Mobile</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item_menu">
+                                    <div class="ztexto-lista">
+                                        <img src="./img/iconos/tab_16.png">
+                                        <h3>ACCEDER</h3>
+                                        <p>Iniciar sesión</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
